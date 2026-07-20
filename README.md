@@ -5,11 +5,12 @@ This will be a repo of me documenting a project that I have been wanting to do f
 I hope to not only learn but to actually self host for control of my own data instead of relying on big companies to do the same thing, plus I am doing it for almost free! You may follow my journey to help yourself set up with a server.
 
 **Current hardware:**
+| Component | Spec |
 |-----------|------|
 | CPU |  |
-| GPU |  |
 | RAM |  |
-| HDD |  |
+| Disk |  |
+| GPU |  |
 | Network |  |
 
 
