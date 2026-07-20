@@ -5,12 +5,14 @@ This will be a repo of me documenting a project that I have been wanting to do f
 I hope to not only learn but to actually self host for control of my own data instead of relying on big companies to do the same thing, plus I am doing it for almost free! You may follow my journey to help yourself set up with a server.
 
 **Current hardware:**
-| Component | Spec |
+| Component | specs |
 |-----------|------|
-| CPU |  |
-| RAM |  |
-| Disk |  |
-| GPU |  |
-| Network |  |
+| CPU | Intel i5-3230M 2.60ghz, 2 cores 4 threads |
+| RAM | 4GB ddr2 2666mhz |
+| Disk | hgst 512gb hdd |
+| GPU | intel integrated graphics 3rd gen|
+| Network | Built in ethernet / qualcom atheros QCA9565 wifi adapter|
+
+
 
 
