@@ -42,6 +42,15 @@ sudo ufw allow samba
 
 You can do this with the command: `sudo smbpasswd -a YOURUSER` just make sure to change YOURUSER to your actual username.
 
+- Step 5: Mounting the drive to file explorer.
+
+This can be done on mac and linux too, but im focusing on windows 11 as that is my main OS (could be linux in the future who knows)
+
+First open up your `File Explorer`. Head over to `This PC` --> `Three dots` --> `Map Network Drive`
+
+<img width="1536" height="817" alt="Screenshot 2026-07-21 174920" src="https://github.com/user-attachments/assets/a3186296-b061-4833-a900-ed62aa4a7a10" />
+
+
 
 
 
