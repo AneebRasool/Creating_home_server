@@ -14,5 +14,12 @@ I hope to not only learn but to actually self host for control of my own data in
 | Network | Built in ethernet / Qualcom Atheros QCA9565 Wifi Adapter|
 
 
+Current goals:
+
+-install a light weight OS (any good linux distro)
+-Set up a NAS to access with ideally no 3rd party software (from phone and PC)
+-Be able to use NAS outside of home (possibly via tailscale)
+
+
 
 
