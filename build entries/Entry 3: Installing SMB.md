@@ -58,6 +58,8 @@ Now once you finish, under network locations you will see your server, which wil
 
 <img width="1135" height="679" alt="image" src="https://github.com/user-attachments/assets/e0abf397-dbe2-4305-9dd4-928a68663177" />
 
+There we go! It works. Just note one thing, the speed of the internet heavily depends on the hardware. I found out when I was on win 10 in task manager, that my server laptop has only `fast ethernet` not `gigabit ethernet` so its max speed tops out at about 100mbps, or about 12.5MB/s. Thats only the theoretical limit though, real speeds are often lower due to things like interference or distance etc so for me I get ~9.5-11MB/s which isnt that bad for just backing up some documents that I have.
+
 
 
 
