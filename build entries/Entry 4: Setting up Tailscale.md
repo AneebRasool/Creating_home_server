@@ -1,0 +1,14 @@
+### Entry 4: Setting up Tailscale
+Date: July 21 2026
+
+Its finally time to install Tailscale, so I can use the power of my server from anywhere in the world (if it works properly of course). Anyways getting started seems to be simple enough.
+
+
+- Step 1: Installing tailscale
+
+```bash
+curl -fsSL https://tailscale.com/install.sh | sh
+```
+
+
+
