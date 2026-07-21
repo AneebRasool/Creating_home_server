@@ -28,7 +28,8 @@ Then there should be 3 options on a black screen, simply enter into `Try or inst
 After its done, there will be a welcome screen and will walk you through basic config choices, pretty self explanatory (like language, or if you want to install ubuntu server (minimized) or not, I just leave it default).
 
 Now if you have ethernet connected you will get a screen like this:
-<img width="4000" height="3000" alt="20260721_131005" src="https://github.com/user-attachments/assets/160736a7-44a1-468f-bf97-67616e5b937c" />
+<img width="4000" height="3000" alt="20260721_131005" src="https://github.com/user-attachments/assets/c0bacd5a-8fad-45f7-8945-284148d27e6a" />
+
 
 Thats a good sign, means that ubuntu found that you are using, continue. You can then setup proxy (if needed). Then you will get an option for mirror adress, you can leave it at default. For storage layout, select which drive you want to install to, but everything else I leave default (as I dont need to encrypt my drive). 
 
@@ -60,7 +61,7 @@ Change:
 
 Then press `CTRL + O`, then `enter`, then, `CTRL + X` to exit. 
 
-Now after restarting the server pc, just to be sure everything works you can ping your computer to see if the connection works. you can do `ping 192.168.2.x` (to find out your server's ip adress, type in `hostname -I`. 
+Now after restarting the server pc, just to be sure everything works you can ping your computer to see if the connection works. You can run the command `ping 192.168.2.x` on an alternate pc in command prompt. (to find out your server's ip adress, type in `hostname -I`. 
 
 
 
