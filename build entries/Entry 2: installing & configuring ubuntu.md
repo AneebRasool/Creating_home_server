@@ -56,7 +56,9 @@ Once you see this on your screen, scroll down to `#HandleLidSwitch=suspend`.
 Change: 
 
 `#HandleLidSwitch=suspend` --> `HandleLidSwitch=ignore`
+
 `#HandleLidSwitchExternalPower=suspend` --> `HandleLidSwitchExternalPower=ignore`
+
 `#HandleLidSwitchDocked=ignore` --> `HandleLidSwitchDocked=ignore`
 
 Then press `CTRL + O`, then `enter`, then, `CTRL + X` to exit. 
