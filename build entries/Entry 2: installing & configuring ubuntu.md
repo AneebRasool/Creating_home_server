@@ -63,6 +63,10 @@ Then press `CTRL + O`, then `enter`, then, `CTRL + X` to exit.
 
 Now after restarting the server pc, just to be sure everything works you can ping your computer to see if the connection works. You can run the command `ping 192.168.2.x` on an alternate pc in command prompt. (to find out your server's ip adress, type in `hostname -I`. 
 
+One last thing that I want to do is to use SSH, basically allowing me to run commands from my main pc which controls the server pc, without having to be next to it all the time. Its very secure as well! As I installed openSSH while setting up, I simply have to connect it from my windows pc. Il be setting it up using a password, as I wont be doing any port forwarding or such to expose it to the network, but you could use keys to make it more secure.
+
+on your alternative pc, in command prompt or terminal, type `ssh user@192.168.2.x` where the ip adress (of your linux pc) is after the @ and your linux server's username is before the @. type yes if it prompts anythying, and it works!
+
 
 
 
