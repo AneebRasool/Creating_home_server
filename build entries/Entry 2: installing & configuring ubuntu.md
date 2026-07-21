@@ -23,11 +23,48 @@ Once you find the button, it should boot into a menu that lists boot options:
 
 From the menu select whichever shows up as your hard drive, for me it is USB Hard drive. After entering, you will be taken to the linux bootloader, `grub`.
 
-Then there should be 3 options on a black screen, simply enter into `Try or install Ubuntu Server`, and it should begin installing.
+Then there should be 3 options on a black screen, simply enter into `Try or install Ubuntu Server`, and it should begin installing. 
 
-After its done, there will be a welcome screen and will walk you through basic config choices, pretty self explanatory (like language) select what you prefer.
+After its done, there will be a welcome screen and will walk you through basic config choices, pretty self explanatory (like language, or if you want to install ubuntu server (minimized) or not, I just leave it default).
 
-Once you get to Choose the base for the installation screen, you can choose whichever 
+Now if you have ethernet connected you will get a screen like this:
+<img width="4000" height="3000" alt="20260721_131005" src="https://github.com/user-attachments/assets/160736a7-44a1-468f-bf97-67616e5b937c" />
+
+Thats a good sign, means that ubuntu found that you are using, continue. You can then setup proxy (if needed). Then you will get an option for mirror adress, you can leave it at default. For storage layout, select which drive you want to install to, but everything else I leave default (as I dont need to encrypt my drive). 
+
+<img width="4000" height="3000" alt="20260721_131518" src="https://github.com/user-attachments/assets/7ff9bdc0-2eb4-446c-ba3e-6009d282d339" />
+
+Once you get to here, you can leave everything default if it checks out, continue.
+
+You will then be asked to initialize your name, servername, username, password keep those in mind, I wrote them down on google docs just in case as it will be used to access the pc. You can then choose to get ubuntu pro, I skipped, and if you want to use openSSH server, you can. I chose to install it now so if I want later I can have it pre installed. You can then install server snaps, then after you press done, it will begin installing. Just wait for a reboot now option, and it will reboot. 
+
+Once its done everything, you will go to the main screen, asking for your login. You put your username, then password, and congrats, ubuntu server is oficially installed!
+
+<img width="4000" height="3000" alt="20260721_140937" src="https://github.com/user-attachments/assets/99dca3c7-fd11-48c2-b691-bc96ba027e89" />
+
+- step 3: post install configurations. 
+
+I would first run `sudo apt update`, to update any packages that are avalible.
+
+Now if you are like me, you probably want to close the lid without the computer turning off, we can do that with some commands and editing a config file.
+
+first type `sudo nano /etc/systemd/logind.comf` then enter.
+<img width="4000" height="3000" alt="20260721_141748" src="https://github.com/user-attachments/assets/3e00db61-c7ae-4f1d-b199-5c589a6d13e3" />
+Once you see this on your screen, scroll down to `#HandleLidSwitch=suspend`. 
+
+Change: 
+
+`#HandleLidSwitch=suspend` --> `HandleLidSwitch=ignore`
+`#HandleLidSwitchExternalPower=suspend` --> `HandleLidSwitchExternalPower=ignore`
+`#HandleLidSwitchDocked=ignore` --> `HandleLidSwitchDocked=ignore`
+
+Then press `CTRL + O`, then `enter`, then, `CTRL + X` to exit. 
+
+Now after restarting the server pc, just to be sure everything works you can ping your computer to see if the connection works. you can do `ping 192.168.2.x` (to find out your server's ip adress, type in `hostname -I`. 
+
+
+
+
 
 
 
