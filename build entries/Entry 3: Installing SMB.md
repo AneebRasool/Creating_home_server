@@ -50,6 +50,15 @@ First open up your `File Explorer`. Head over to `This PC` --> `Three dots` --> 
 
 <img width="1536" height="817" alt="Screenshot 2026-07-21 174920" src="https://github.com/user-attachments/assets/a3186296-b061-4833-a900-ed62aa4a7a10" />
 
+Enter your ip adress in the foler area, so 2 back slashes and your ip adress then click browse and it should pop up. You then click on the folder that shares, ok, then finish. I have the password saved, but if it asks for your user and password, enter your linux username and your password you created with the passwd command.
+
+<img width="1257" height="685" alt="image" src="https://github.com/user-attachments/assets/d20e1b18-27dd-4a3f-a804-c0de2bc956c3" />
+
+Now once you finish, under network locations you will see your server, which will use SMB. If you chose to save your password with windows credentials, you wont have to re enter it, and accessing your files will be as easy as clicking on it, and dragging and dropping what you want!
+
+<img width="1135" height="679" alt="image" src="https://github.com/user-attachments/assets/e0abf397-dbe2-4305-9dd4-928a68663177" />
+
+
 
 
 
