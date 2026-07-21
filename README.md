@@ -8,7 +8,7 @@ I hope to not only learn but to actually self host for control of my own data in
 | Component | Specs |
 |-----------|------|
 | CPU | Intel i5-3230M 2.60Ghz, 2 Cores, 4 Threads |
-| RAM | 4GB Ddr2 2666Mhz |
+| RAM | 4GB Ddr3|
 | Disk | Hgst 512Gb Hdd |
 | GPU | Intel Integrated Graphics 3rd Gen|
 | Network | Built in ethernet / Qualcom Atheros QCA9565 Wifi Adapter|
