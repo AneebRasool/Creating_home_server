@@ -1,4 +1,4 @@
-# Creating home server
+# Creating a home server
 
 This will be a repo of me documenting a project that I have been wanting to do for a while, repurposing an old ~9 yr old laptop into a low budget server to learn the basics of using linux, file hosting, and learn valuable skills like trouble shooting. 
 
