@@ -31,9 +31,9 @@ Even though my main computer has 1tb of storage which is quite a lot, I have jus
 
   <img width="637" height="105" alt="image" src="https://github.com/user-attachments/assets/e59193a2-efa8-4a44-b4e6-e3d355b032b9" />
 
-As you can see, the server uses only about `12%` of my 4gb ram (or about `480MB`) of ram, compared to even `linux mint`, which I had installed before used `1.5GB` of ram! Before mint, I had windows 10, which took a massive ~`2.3GB`, many of the procces are just privacy invasive microsoft telemetery, and background services that can't be disabled (that I probably wont use anyways). 
+As you can see, the server uses only about `12%` of my 4gb ram (or about `480MB`) of ram, compared to even `linux mint`, which I had installed before used `1.5GB` of ram! Before mint, I had `windows 10`, which took a massive `2.3GB`, many of the procces probably being privacy invasive microsoft telemetery, and background services that can't be disabled (that I probably wont use anyways). 
   
-Some next steps that could be added here, one is definetely better hardware (the 100mbps ethernet limit is a huge bottleneck, everything else like the `hard drive`, even the `cpu` and the `ram` are not that bad. I get `~11MB/s` at home, not bad but could be definetely better... Which would probably mean shelling out some money for a new system, as reasonably no ethernet/wifi adapter would bring network speeds significantly, especially on such an old motherboard. 
+Some next steps that could be added here, one is definetely better hardware (the 100mbps ethernet limit is a huge bottleneck, everything else like the `hard drive`, even the `cpu` and the `ram` are not that bad. I get `~11MB/s` at home, not bad but could be definetely better... Which would probably mean shelling out some money for a new system, as reasonably no ethernet/wifi adapter would bring network speeds significantly to the old laptop, considering the old motherboard it would have. 
 
 <img width="445" height="212" alt="image" src="https://github.com/user-attachments/assets/4739ef82-6da1-4829-b485-eb89892acdce" />
 
